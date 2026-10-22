@@ -1,4 +1,6 @@
 version : "3.3"
-services :
-  web :
-     
+services : 
+  web : 
+     image: mrkhan1620/notes-app:latest
+     ports :
+         - "8000:8000"
